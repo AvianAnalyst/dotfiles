@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Kylan Byrd
+	email = kylan.byrd@focusedlabs.io
+# Please adapt and uncomment the following lines:
+#	name = Kylan Byrd
+#	email = kylan.byrd@focusedlabs.io
+[init]
+	defaultBranch = main
