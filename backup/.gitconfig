@@ -1,9 +1,10 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Kylan Byrd
-	email = kylan.byrd@focusedlabs.io
-# Please adapt and uncomment the following lines:
-#	name = Kylan Byrd
-#	email = kylan.byrd@focusedlabs.io
+    name = Kylan Byrd
+    email = kylan.byrd@btr.energy
+
+[includeIf "gitdir:~/dotfiles/"]
+    path = ~/dotfiles/.gitconfig
+
 [init]
-	defaultBranch = main
+    defaultBranch = main
