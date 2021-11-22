@@ -3,8 +3,5 @@
     name = Kylan Byrd
     email = kylan.byrd@btr.energy
 
-[includeIf "gitdir:~/dotfiles/"]
-    path = ~/dotfiles/.gitconfig
-
 [init]
     defaultBranch = main
