@@ -118,3 +118,4 @@ fi
 
 
 # Add python's local path to PATH
+. "$HOME/.cargo/env"

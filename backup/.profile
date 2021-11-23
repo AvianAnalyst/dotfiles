@@ -28,3 +28,4 @@ fi
 
 # Add pythons .local bin to path
 export PATH=$PATH:$HOME/.local/bin
+. "$HOME/.cargo/env"
