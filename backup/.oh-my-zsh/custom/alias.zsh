@@ -18,10 +18,7 @@ alias tf="terraform"
 alias tfa="terraform apply"
 alias tfi="terraform init"
 alias tfp="terraform plan"
-if [[ $OSTYPE='darwin'* ]]; then
-    alias agi="brew install"
-else
-    alias agi="nocorrect sudo apt-get install"
-fi
+alias bi="brew install"
+alias agi="nocorrect sudo apt-get install"
 alias mackups="pushd ~/dotfiles/"
 alias funcs="nvim ${ZSH_CUSTOM}/function.zsh" 
