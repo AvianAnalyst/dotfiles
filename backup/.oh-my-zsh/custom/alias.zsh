@@ -24,3 +24,4 @@ else
     alias agi="nocorrect sudo apt-get install"
 fi
 alias mackups="cd ~/dotfiles/"
+alias funcs="nvim ${ZSH_CUSTOM}/function.zsh" 
