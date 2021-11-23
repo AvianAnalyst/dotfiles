@@ -23,5 +23,5 @@ if [[ $OSTYPE='darwin'* ]]; then
 else
     alias agi="nocorrect sudo apt-get install"
 fi
-alias mackups="cd ~/dotfiles/"
+alias mackups="pushd ~/dotfiles/"
 alias funcs="nvim ${ZSH_CUSTOM}/function.zsh" 
