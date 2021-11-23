@@ -1,5 +1,6 @@
 alias aliases="nvim ${ZSH_CUSTOM}/alias.zsh" 
 alias zshrc="nvim ~/.zshrc"
+alias sshconfig="nvim ~/.ssh/config"
 alias vim="nvim"
 alias vi="vim"
 alias ohmyzsh="nvim ${ZSH}"
